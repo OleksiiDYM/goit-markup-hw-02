@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", sans-serif;
+    }   
+    
+    .list {
+        list-style: none;
+    }
+    .link {
+        text-decoration: none;
+    }
+    /* ---------HEADER-------- */
+    .header-logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;                   
+        letter-spacing: 0.03em;          
+        color: #2196F3;
+    }
+    .header-link:hover, 
+    .header-link:focus, 
+    .header-email:hover, 
+    .header-email:focus {
+        color: #2196F3; 
+    }
+    .header-tel {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;        
+            color: #757575;
+    }
+    .header-email {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;        
+            color: #212121;
+    }
+        /* ---------HEADER-------- */
+        /* ---------HERO---------- */
+        .hero, .hero-btn {
+            background-color: #2F303A;
+        }
+    .hero-btn {
+            font-family: inherit;        
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.06em;        
+            color: #FFFFFF;
+    }
+    .hero-text {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;        
+            color: #FFFFFF;
+        /* ---------HERO---------- */
+        /* ---------HERO2--------- */
+    }
+    .hero2-main {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;            
+            color: #212121;
+        }               
+    .hero2-item {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;                    
+            letter-spacing: 0.03em;            
+            color: #757575;
+        }
+        /* ---------HERO2---------- */
+        /* ---------INFO---------- */
+    .info-text {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;        
+            color: #212121;
+    }
+        /* ---------INFO---------- */
+        /* ---------TEAM---------- */       
+    .team-maintext {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;        
+        color: #212121;
+    }     
+     
+    .team-toptext {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;             
+        letter-spacing: 0.03em;
+        color: #212121;
+    }    
+    .team-bottomtext {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;               
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+        /* ---------TEAM---------- */
+        /* ---------FOOTER---------- */
+    .footer {
+        background-color: #2F303A;
+    }
+          
+    .footer-logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    } 
+           
+    .footer-map {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;    
+        line-height: 1.71;       
+        color: #FFFFFF;
+    }
+    
+    .footer-email {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;            
+        letter-spacing: 0.03em;        
+        color: rgba(255, 255, 255, 0.6);
+        
+    }
+    
+    .footer-tel {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
