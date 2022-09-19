@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+:root {
+    --button-color: #2196F3;
+    --font-grey: #757575;
+    --font-black: #212121;
+    
+}
+
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    color: #212121;
     }   
     
     .list {
@@ -10,8 +22,7 @@ body {
     }
     /* ---------HEADER-------- */
     .header-logo {
-        font-family: 'Raleway' sans-serif;
-        font-style: normal;
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;                   
@@ -22,69 +33,69 @@ body {
     .header-link:focus, 
     .header-email:hover, 
     .header-email:focus {
-        color: #2196F3; 
+        color: var(--button-color); 
     }
     .header-tel {
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;        
-            color: #757575;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;        
+        color: var(--font-grey);
     }
     .header-email {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;        
-            color: #212121;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;        
+        color: var(--font-black);
     }
         /* ---------HEADER-------- */
         /* ---------HERO---------- */
         .hero, .hero-btn {
-            background-color: #2F303A;
+        background-color: #2F303A;
         }
     .hero-btn {
-            font-family: inherit;        
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.88;
-            letter-spacing: 0.06em;        
-            color: #FFFFFF;
+        font-family: inherit;        
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;        
+        color: #FFFFFF;
+        cursor: pointer;
     }
     .hero-text {
-            font-weight: 900;
-            font-size: 44px;
-            line-height: 1.36;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;        
-            color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;        
+        color: #FFFFFF;
         /* ---------HERO---------- */
         /* ---------HERO2--------- */
     }
     .hero2-main {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;            
-            color: #212121;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;            
+        color: var(--font-black);
         }               
     .hero2-item {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;                    
-            letter-spacing: 0.03em;            
-            color: #757575;
+        font-size: 14px;
+        line-height: 1.71;                    
+        letter-spacing: 0.03em;            
+            color: var(--font-grey);
         }
         /* ---------HERO2---------- */
         /* ---------ABOUT---------- */
     .about-text {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;        
-            color: #212121;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;        
+        color: var(--font-black);
     }
         /* ---------INFO---------- */
         /* ---------TEAM---------- */       
@@ -93,7 +104,7 @@ body {
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;        
-        color: #212121;
+        color: var(--font-black);
     }     
      
     .team-toptext {
@@ -101,14 +112,13 @@ body {
         font-size: 16px;
         line-height: 1.19;             
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--font-black);
     }    
-    .team-bottomtext {
-        font-weight: 400;
+    .team-bottomtext {        
         font-size: 16px;
         line-height: 1.19;               
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--font-grey);
     }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
@@ -118,7 +128,6 @@ body {
           
     .footer-logo {
         font-family: 'Raleway' sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
@@ -128,14 +137,12 @@ body {
            
     .footer-map {
         font-size: 14px;
-        font-weight: 400;
         letter-spacing: 0.03em;    
         line-height: 1.71;       
         color: #FFFFFF;
     }
     
-    .footer-email {
-        font-weight: 400;
+    .footer-email {        
         font-size: 14px;
         line-height: 1.71;            
         letter-spacing: 0.03em;        
@@ -143,8 +150,7 @@ body {
         
     }
     
-    .footer-tel {
-        font-weight: 400;
+    .footer-tel {        
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -152,7 +158,11 @@ body {
     }
         /* ---------FOOTER---------- */
         /* ---------INFOBAR---------- */
-     
+    .infobar-buttons:hover,
+    .infobar-buttons:focus {
+        color: var(--button-color);
+    }
+         
     .infobar-btn {
         font-family: inherit;
         font-weight: 500;
@@ -160,6 +170,7 @@ body {
         line-height: 1.62;               
         letter-spacing: 0.03em;        
         color: #FFFFFF;
+        cursor: pointer;
     }
         /* ---------INFOBAR---------- */
         /* ---------PROJECTS---------- */
@@ -169,14 +180,14 @@ body {
         font-size: 18px;
         line-height: 2;               
         letter-spacing: 0.06em;        
-        color: #212121;
+        color: var(--font-black);
     }
     
-    .projects-bottomtext {
-        font-weight: 400;
+    .projects-bottomtext {        
         font-size: 16px;
         line-height: 1.88;               
         letter-spacing: 0.03em;        
-        color: #757575;
+        color: var(--font-grey);
     }
+    /* ---------PROJECTS---------- */
 
